@@ -161,10 +161,6 @@ public class TurnosProximos extends javax.swing.JFrame {
             asistidoUno = turnoUno.poll();
             while (!turnoUno.isEmpty()) {
                 acu1+= (" - " + turnoUno.poll() + "\n");
-                /*-EE2
-                  -EE3
-                  -EE4
-                */
             }
             Texto1.setText(acu1);
         } else {
